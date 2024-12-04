@@ -56,7 +56,7 @@ def main():
     # color here.
     ren = vtkRenderer()
     ren.SetBackground(0,0,0)
-    #ren.AddActor( coneActor )
+    ren.AddActor( coneActor )
     
     # Finally we create the render window which will show up on the screen.
     # We put our renderer into the render window using AddRenderer. We also
